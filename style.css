@@ -662,7 +662,7 @@ h2 {
     }
     .acc {
         border: 1px solid #bebdbd80;
-        margin-top: 89px;
+        /* margin-top: 89px; */
         height: 450px;
         width: 90%;
         min-width: 250px;
@@ -703,13 +703,13 @@ h2 {
         margin-left: 50px;
         justify-content: center;
         width: 36%;
-        margin-top: 72px;
+        margin-top: 22px;
         font-size: larger;
         flex-wrap: wrap;
     }
     .acc1 {
         border: 1px solid #bebdbd80;
-        margin-top: 89px;
+        /* margin-top: 89px; */
         height: 550px;
         width: 90%;
         min-width: 250px;
@@ -782,7 +782,7 @@ h2 {
     }
     .bottom-text1 .btn1 button {
         margin-top: 25px;
-        margin-left: 8%;
+        margin-left: 18%;
         height: 46px;
         width: 60%;
         background-color: #0067b8;
@@ -804,6 +804,82 @@ h2 {
     .container4 {
         margin-left: 0px;
         width: 96%;
+    }
+}
+@media(max-width: 425px){
+    #logo img {
+        margin-left: 111px;
+        width: 51%;
+    }
+    .bg-img {
+        width: 100%;
+        height: 30vh;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600);
+        background-size: 165%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    .p {
+        width: 87%;
+        margin-left: 40px;
+        margin-top: 15px;
+        font-weight: 20;
+    }
+    .btn button {
+        margin-top: 40px;
+        margin-left: 82px;
+        height: 46px;
+        padding: 0 66px;
+        background-color: #0067b8;
+        color: white;
+        border: none;
+    }
+    .card-btn2 button {
+        margin-top: 71px;
+    }
+    .bg-img1 {
+        margin-left: 10px;
+        background-size: 167%;
+        width: 95vw;
+        /* justify-content: center; */
+        height: 39vh;
+        background-position: center right;
+    }
+    .bottom-text1 .p1 {
+        width: 80%;
+        margin-left: 12%;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+    .bottom-text1 .btn1 button {
+        margin-top: 25px;
+        margin-left: 17%;
+        height: 46px;
+        width: 63%;
+        background-color: #0067b8;
+        color: white;
+        border: none;
+    }
+    .container3 {
+        margin-left: 50px;
+        justify-content: center;
+        width: 36%;
+        margin-top: -4px;
+        font-size: larger;
+        flex-wrap: wrap;
+    }
+    .content-cont {
+        display: flex
+    ;
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 53px;
+    }
+    .container4 {
+        margin-left: -17px;
+        width: 96%;
+        margin-bottom: -33px;
     }
 }
 @media (max-width: 320px) {
@@ -841,7 +917,7 @@ h2 {
     }
     .acc {
         border: 1px solid #bebdbd80;
-        margin-top: 89px;
+        /* margin-top: 89px; */
         height: 400px;
         width: 90%;
         min-width: 250px;
@@ -873,7 +949,7 @@ h2 {
     }
     .acc1 {
         border: 1px solid #bebdbd80;
-        margin-top: 89px;
+        /* margin-top: 89px; */
         height: 500px;
         width: 90%;
         min-width: 250px;
