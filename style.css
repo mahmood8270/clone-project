@@ -1,0 +1,897 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbarli {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 11px 10px;
+    tab-size: 8px;
+}
+
+.navbar li a {
+    padding-right: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: rgb(203, 169, 226);
+    text-decoration: underline;
+}
+
+#logo img {
+    height: 20PX;
+    width: 50%;
+    margin: 3px;
+    padding: 1px;
+    margin-left: 69px;
+}
+
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    /* margin-bottom: 8px; */
+    margin-top: 10px;
+    left: 30px;
+    z-index: 2;
+    display: none;
+}
+
+.s1 {
+    padding: 6px;
+    font-size: 13px;
+}
+
+#s2 {
+    float: right;
+    /* margin-right: 30px; */
+}
+
+#s3 {
+    float: right;
+    /* margin-right: 30px; */
+}
+#s2 i {
+    transform: translateX(-1);
+}
+
+/* container */
+.bg-img {
+    width: 100%;
+    height: 75vh;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: start;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin-left: 40px;
+    margin-top: 130px;
+    font-weight: 500;
+}
+
+.bottom-text {
+    display: none;
+    /* width:  10%; */
+}
+
+.bottom-text h1 {
+    margin-top: 30px;
+}
+
+.p {
+    width: 45%;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-weight: 20;
+}
+
+.btn button {
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 46px;
+    padding: 0 15px;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+/* icon section */
+.icon ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100%;
+    font-size: 40px;
+    list-style: none;
+    padding-top: 80px;
+}
+
+.icon ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon ul a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.icon ul li img {
+    width: 100%;
+    height: 40px;
+}
+
+.icon ul li a{
+    display: block;
+}
+/* card section */
+.content-cont {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.img img {
+    width: 100%;
+    height: 135px;
+    object-fit: cover;
+}
+
+.acc {
+    border: 1px solid #bebdbd80;
+    height: 400px;
+    width: 20%;
+    min-width: 250px;
+}
+
+h3 {
+    padding-left: 15px;
+    margin-top: 15px;
+    /* font-size: medium; */
+}
+
+.card-para {
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.card-btn1 button {
+    margin-top: 38px;
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.card-btn2 button {
+    margin-top: 90px;
+    margin-left: 15px;
+    height: 40px;
+    width: 60%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.card-btn3 button {
+    margin-top: 90px;
+    margin-left: 15px;
+    height: 40px;
+    width: 60%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.card-btn4 button {
+    margin-top: 28px;
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+/* container section2 */
+.bg-img1 {
+    width: 90%;
+    height: 85vh;
+    margin-top: 80px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Copilot-Native-App-ROW:VP4-1260x600");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 55px;
+}
+
+.container2 {
+    display: flex;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.bottom-text1 {
+    display: none;
+    height: 280px;
+    margin-top: 4px;
+}
+
+.bottom-text1 h2 {
+    margin-top: auto;
+    /* margin-left: 25%; */
+    width: 80%;
+    text-align: center;
+}
+
+h2 {
+    /* margin-left: 90px; */
+    margin-top: 140px;
+    text-align: center;
+    font-weight: 900;
+    width: 30%;
+}
+
+.bottom-text1 .p1{
+        width: 50%;
+        /* margin-left: 35%; */
+        margin-top: 30px;
+        font-weight: 400;
+}
+.p1 {
+    width: 29%;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.bottom-text1 .btn1 button {
+    margin-top: 25px;
+    /* margin-left: 35%; */
+    height: 46px;
+    width: 40%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+.btn1 button {
+    margin-top: 25px;
+    margin-left: 50px;
+    height: 46px;
+    width: 20%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+/* card section2 */
+.container3 {
+    /* display: flex; */
+    margin-left: 80px;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    width: 22%;
+    margin-top: 72px;
+    font-size: larger;
+    flex-wrap: wrap;
+}
+
+.acc1 {
+    border: 1px solid #bebdbd80;
+    margin-top: 20px;
+    height: 480px;
+    width: 20%;
+    min-width: 250px;
+}
+
+.h1 {
+    padding-left: 15px;
+    margin-top: 15px;
+    /* font-size: medium; */
+}
+
+.card-para1 {
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    margin-top: 5px;
+    line-height: 25px;
+    margin: 20px;
+}
+
+.card-btn5 button {
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.h2 {
+    padding-left: 15px;
+    margin-top: 55px;
+    /* font-size: medium; */
+}
+
+.card-para2 {
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    margin-top: 5px;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.card-btn6 button {
+    margin-top: 70px;
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.h3 {
+    padding-left: 15px;
+    margin-top: 55px;
+    /* font-size: medium; */
+}
+
+.card-para3 {
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    margin-top: 5px;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.card-btn7 button {
+    margin-top: 39px;
+    margin-left: 15px;
+    height: 50px;
+    width: 80%;
+    font-weight: 700;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.h4 {
+    padding-left: 15px;
+    margin-top: 55px;
+    /* font-size: medium; */
+}
+
+.card-para4 {
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    margin-top: px;
+    margin: 20px;
+    line-height: 25px;
+}
+
+.card-btn8 button {
+    margin-top: 70px;
+    margin-left: 15px;
+    height: 40px;
+    width: 50%;
+    background-color: #0067b8;
+    color: white;
+    border: none;
+}
+
+.btn9 button {
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    width: 20%;
+    background-color: #ffb900;
+    ;
+    color: black;
+    border: none;
+}
+
+/* follow section */
+.container4 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* font-size: larger; */
+}
+
+.fb {
+    padding-left: 30px;
+}
+
+.fb img {
+    height: 30px;
+    width: 40px;
+}
+
+.x {
+    padding-left: 10px;
+}
+
+.x img {
+    height: 30px;
+    width: 40px;
+}
+
+.yt {
+    padding-left: 15px;
+}
+
+.yt img {
+    height: 30px;
+    width: 40px;
+}
+
+/* links section */
+.links {
+    border: 1px solid rgb(226, 223, 223);
+    min-height: 400px;
+    margin-top: 80px;
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    gap: 10px;
+    font-size: x-smaller;
+    flex-wrap: wrap;
+}
+
+.links ul {
+    list-style: none;
+    margin-left: 25px;
+    margin-right: 35px;
+    margin-top: 35px;
+    color: #000;
+}
+
+.links li h3 {
+    margin-left: -15px;
+    color: #6e5e5e;
+    font-size: large;
+}
+
+.links li a {
+    line-height: 35px;
+    text-decoration: none;
+    font-size: xx-small;
+    /* list-style: none; */
+    font-size: small;
+    color: black;
+}
+
+@media (max-width: 1024px) {
+     .acc {
+            border: 1px solid #bebdbd80;
+            height: 400px;
+            width: 40%;
+            min-width: 250px;
+        }
+        .img img {
+            height: 50%;
+        }
+    .card-btn1 button {
+        margin-top: 3px;
+    }
+    .card-btn2 button {
+        margin-top: 30px;
+    }
+    .card-btn3 button {
+        margin-top: 30px;
+    }
+    .card-btn4 button {
+        margin-top: 3px;
+    }
+    .acc1 {
+        border: 1px solid #bebdbd80;
+
+        height: 500px;
+        width: 40%;
+        min-width: 250px;
+    }
+    .img img {
+        height: 50%;
+    }
+    .card-btn6 button {
+        margin-top: 46px;
+    }
+    .card-btn7 button {
+        margin-top: 34px;
+    }
+    .card-btn8 button {
+        margin-top: 40px;
+    }
+}
+@media (max-width:900px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
+    .s1 {
+        display: none;
+    }
+
+    #s2 {
+        display: block;
+    }
+    .s1 #s2 a  {
+        display: block;
+    }
+
+    #logo img {
+        margin-left: 350px;
+        width: 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon ul li a{
+        display: none;
+    }
+    .top-text {
+        display: none;
+    }
+
+    .bottom-text {
+        display: block;
+    }
+
+    .card-btn1 button {
+        margin-top: 23px;
+    }
+    .card-btn2 button {
+        margin-top: 50px;
+    }
+    .card-btn3 button {
+        margin-top: 80px;
+    }
+    .card-btn4 button {
+        margin-top: 20px;
+    }
+    .card-btn5 button {
+        margin-top: 15px;
+    }
+    .card-btn6  button {
+        margin-top: 65px;
+    }
+    .card-btn7 button {
+        margin-top: 35px;
+    }
+    .card-btn8 button {
+        margin-top: 70px;
+    }
+    .bg-img1 {
+        margin-left: 10px;
+        background-size: 155%;
+        width: 95vw;
+        justify-content: center;
+        height: 60vh;
+        background-position: right;
+    }
+    .container4 {
+        margin-left: 79px;
+        width: 41%;
+    }
+
+    .top-text1 {
+        display: none;
+    }
+
+    .p1 {
+        width: 50%;
+
+    }
+
+    .btn1 button {
+        width: 30%;
+    }
+
+    .bottom-text1 {
+        display: block;
+    }
+
+}
+@media (max-width: 450px) {
+    .navbar li a {
+        padding-left: 10px;
+    }
+    #logo img {
+        margin-left: 143px;
+        width: 39%;
+    }
+    .bg-img {
+        width: 100%;
+        height: 40vh;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600);
+        background-size: 165%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    .p {
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 25px;
+        font-weight: 20;
+    }
+    .acc {
+        border: 1px solid #bebdbd80;
+        margin-top: 89px;
+        height: 450px;
+        width: 90%;
+        min-width: 250px;
+    }
+    .card-btn1 button {
+        margin-top: 25px;
+    }
+    .card-btn2 button {
+        margin-top: 80px;
+    }
+    .card-btn3 button {
+        margin-top: 80px;
+    }
+    .card-btn4 button {
+        margin-top: 25px;
+    }
+    .bottom-text1 h2 {
+        margin-top: 10px;
+        margin-left: 7%;
+        width: 80%;
+    }
+    .bottom-text1 .p1 {
+        width: 65%;
+        margin-left: 8%;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+    .bottom-text1 .btn1 button {
+        margin-top: 25px;
+        margin-left: 8%;
+        height: 46px;
+        width: 40%;
+        background-color: #0067b8;
+        color: white;
+        border: none;
+    }
+    .container3 {
+        margin-left: 50px;
+        justify-content: center;
+        width: 36%;
+        margin-top: 72px;
+        font-size: larger;
+        flex-wrap: wrap;
+    }
+    .acc1 {
+        border: 1px solid #bebdbd80;
+        margin-top: 89px;
+        height: 550px;
+        width: 90%;
+        min-width: 250px;
+    }
+    .bg-img1 {
+        margin-left: 10px;
+        background-size: 155%;
+        width: 95vw;
+        /* justify-content: center; */
+        height: 60vh;
+        background-position: center right;
+    }
+    /* .bg-img1 {
+        margin-left: 10px;
+        background-size: cover;
+        width: 98vw;
+        justify-content: center;
+        height: 43vh;
+        background-size: 96%;
+    } */
+    .card-btn5 button {
+        margin-top: 35px;
+    }
+    .card-btn6  button {
+        margin-top: 70px;
+    }
+    .card-btn7 button {
+        margin-top: 65px;
+    }
+    .card-btn8 button {
+        margin-top: 80px;
+    }
+    .container4 {
+        margin-left: -17px;
+        width: 96%;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    #logo img {
+        margin-left: 94px;
+        width: 51%;
+    }
+    .bg-img {
+        width: 100%;
+        height: 35vh;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600);
+        background-size: 165%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    .card-btn1 button {
+        margin-top: 40px;
+    }
+    .card-btn2 button {
+        margin-top: 75px;
+    }
+    .card-btn3 button {
+        margin-top: 96px;
+    }
+    .card-btn4 button {
+        margin-top: 35px;
+    }
+    .bottom-text1 .p1 {
+        width: 78%;
+        margin-left: 8%;
+        margin-top: 30px;
+        font-weight: 400;
+    }
+    .bottom-text1 .btn1 button {
+        margin-top: 25px;
+        margin-left: 8%;
+        height: 46px;
+        width: 60%;
+        background-color: #0067b8;
+        color: white;
+        border: none;
+    }
+    .card-btn5 button {
+        margin-top: 40px;
+    }
+    .card-btn6 button {
+        margin-top: 85px;
+    }
+    .card-btn7 button {
+        margin-top: 56px;
+    }
+    .card-btn8 button {
+        margin-top: 90px;
+    }
+    .container4 {
+        margin-left: 0px;
+        width: 96%;
+    }
+}
+@media (max-width: 320px) {
+    .bg-img {
+        width: 100%;
+        height: 30vh;
+        background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce:VP5-1920x600);
+        background-size: 165%;
+        background-position: center right;
+        background-repeat: no-repeat;
+    }
+    .navbar li a {
+        padding-left: 0px;
+        margin-left: -10px;
+    }
+    h1 {
+        margin-left: 19px;
+        margin-top: 130px;
+        font-weight: 500;
+    }
+    .p {
+        width: 90%;
+        margin-left: 18px;
+        margin-top: 15px;
+        font-weight: 20;
+    }
+    .btn button {
+        margin-top: 25px;
+        margin-left: 21px;
+        height: 46px;
+        padding: 0 15px;
+        background-color: #0067b8;
+        color: white;
+        border: none;
+    }
+    .acc {
+        border: 1px solid #bebdbd80;
+        margin-top: 89px;
+        height: 400px;
+        width: 90%;
+        min-width: 250px;
+    }
+    .card-btn1 button {
+        margin-top: 30px;
+    }
+    .card-btn2 button {
+        margin-top: 60px;
+    }
+    .card-btn3 button {
+        margin-top: 65px;
+    }
+    .container3 {
+        margin-left: 33px;
+        justify-content: center;
+        width: 39%;
+        margin-top: 72px;
+        font-size: larger;
+        flex-wrap: wrap;
+    }
+    .bg-img1 {
+        margin-left: 10px;
+        background-size: 191%;
+        width: 95vw;
+        /* justify-content: center; */
+        height: 60vh;
+        background-position: center right;
+    }
+    .acc1 {
+        border: 1px solid #bebdbd80;
+        margin-top: 89px;
+        height: 500px;
+        width: 90%;
+        min-width: 250px;
+    }
+    .card-btn5 button {
+        margin-top: 33px;
+    }
+    .card-btn6 button {
+        margin-top: 78px;
+    }
+    .card-btn7 button {
+        margin-top: 50px;
+    }
+    .card-btn8 button {
+        margin-top: 75px;
+    }
+    .container4 {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
